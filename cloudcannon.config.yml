@@ -1,0 +1,30 @@
+collections_config:
+  a_collection:
+    path: a--collection
+    parser: 'front-matter'
+    glob: ['**/*.mdx', '**/*.png']
+    output: true
+    url: '[full_slug]'
+  b_collection:
+    path: b--collection
+    parser: 'front-matter'
+    glob: ['**/*.mdx', '**/*.png']
+    output: true
+    url: '[full_slug]'
+
+_enabled_editors:
+  - content
+  - data
+
+paths:
+  uploads: "[base_path]/images"
+
+generator:
+  metadata:
+    markdown: markdown-it
+    markdown-it:
+      html: true
+      linkify: true
+
+_snippets_imports:
+  mdx: true
