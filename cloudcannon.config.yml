@@ -2,13 +2,13 @@ collections_config:
   a_collection:
     path: a--collection
     parser: 'front-matter'
-    glob: ['**/*.mdx', '**/*.png']
+    glob: ['**/*.mdx']
     output: true
     url: '[full_slug]'
   b_collection:
     path: b--collection
     parser: 'front-matter'
-    glob: ['**/*.mdx', '**/*.png']
+    glob: ['**/*.mdx']
     output: true
     url: '[full_slug]'
 
